@@ -1,0 +1,84 @@
+{
+  "reports": [
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/dim.14avr.19_1124PM",
+      "startTime": 1555280649416
+    },
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/dim.14avr.19_1121PM",
+      "startTime": 1555280471947
+    },
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/dim.14avr.19_1117PM",
+      "startTime": 1555280248170
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/dim.14avr.19_1116PM",
+      "startTime": 1555280195240
+    },
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/dim.14avr.19_1115PM",
+      "startTime": 1555280102946
+    },
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/dim.14avr.19_1012PM",
+      "startTime": 1555276378685
+    },
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/dim.14avr.19_0943PM",
+      "startTime": 1555274594895
+    },
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/dim.14avr.19_0907PM",
+      "startTime": 1555272446654
+    },
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/dim.14avr.19_0904PM",
+      "startTime": 1555272246873
+    },
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/dim.14avr.19_0855PM",
+      "startTime": 1555271727984
+    },
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/ven.12avr.19_0618AM",
+      "startTime": 1555046300388
+    },
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/ven.12avr.19_0614AM",
+      "startTime": 1555046064397
+    },
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/ven.12avr.19_0609AM",
+      "startTime": 1555045778762
+    },
+    {
+      "name": "TestNGmavenexemple.CalculatorTest",
+      "dir": "test-results/ven.12avr.19_0609AM",
+      "startTime": 1555045759416
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/ven.12avr.19_0603AM",
+      "startTime": 1555045403867
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/ven.12avr.19_0601AM",
+      "startTime": 1555045289903
+    }
+  ]
+}

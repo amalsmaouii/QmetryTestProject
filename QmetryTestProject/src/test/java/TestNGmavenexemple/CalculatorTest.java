@@ -25,8 +25,10 @@ public class CalculatorTest {
 	public void afterEachTest() {
 		System.out.println("This is exceuted after each Test");
 	}
-
-	@Test (groups = {"testEntityKey=PRO-TC-85"})
+	
+	@QmetryTestCase(TC_ID="12345")
+	//@Test (groups = {"testEntityKey=PRO-TC-85"})
+	@Test(description = "Sample test")
 	public void testSum() {
 		int result = calculator.sum(3, 4);
 
