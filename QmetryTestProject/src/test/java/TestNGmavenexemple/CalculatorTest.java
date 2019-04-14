@@ -26,14 +26,14 @@ public class CalculatorTest {
 		System.out.println("This is exceuted after each Test");
 	}
 
-	@Test
+	@Test (groups = {"testEntityKey=PRO-TC-85"})
 	public void testSum() {
 		int result = calculator.sum(3, 4);
 
 		assertEquals(7, result);
 	}
 
-	@Test
+	@Test (groups = {"testEntityKey=PRO-TC-86"})
 	public void testDivison() {
 		try {
 			int result = calculator.divison(10, 2);
