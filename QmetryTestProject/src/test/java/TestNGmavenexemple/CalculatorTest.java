@@ -34,7 +34,7 @@ public class CalculatorTest {
 		assertEquals(7, result);
 	}
 
-	@Test (groups = {"testEntityKey:PRO-TC-86"})
+	@Test (groups = {"testEntityKey:PRO-TC-15"})
 
 	public void testDivison99() {
 		try {
