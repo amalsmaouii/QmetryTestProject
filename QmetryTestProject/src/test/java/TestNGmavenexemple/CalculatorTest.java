@@ -26,17 +26,16 @@ public class CalculatorTest {
 		System.out.println("This is exceuted after each Test");
 	}
 	
-	@QmetryTestCase(TC_ID="12345")
-	//@Test (groups = {"testEntityKey=PRO-TC-85"})
-	@Test(description = "Sample test")
-	public void testSum() {
+	//@QmetryTestCase(TC_ID="12345")
+	@Test (groups = {"testEntityKey=PRO-TC-85"})
+	public void testSum1() {
 		int result = calculator.sum(3, 4);
 
 		assertEquals(7, result);
 	}
 
 	@Test (groups = {"testEntityKey=PRO-TC-86"})
-	public void testDivison() {
+	public void testDivison1() {
 		try {
 			int result = calculator.divison(10, 2);
 

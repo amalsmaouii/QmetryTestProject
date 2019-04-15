@@ -1,6 +1,21 @@
 {
   "reports": [
     {
+      "name": "Default suite",
+      "dir": "test-results/lun.15avr.19_0102AM",
+      "startTime": 1555286537048
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/lun.15avr.19_0102AM",
+      "startTime": 1555286525457
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/dim.14avr.19_1143PM",
+      "startTime": 1555281832631
+    },
+    {
       "name": "TestNGmavenexemple.CalculatorTest",
       "dir": "test-results/dim.14avr.19_1124PM",
       "startTime": 1555280649416
