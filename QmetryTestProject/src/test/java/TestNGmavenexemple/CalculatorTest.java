@@ -27,14 +27,15 @@ public class CalculatorTest {
 	}
 	
 	
-	@Test (groups = {"testEntityKey=PRO-TC-11"})
+	@Test (groups = {"testEntityKey:PRO-TC-11"})
 	public void testSum99() {
 		int result = calculator.sum(3, 4);
 
 		assertEquals(7, result);
 	}
 
-	@Test (groups = {"testEntityKey=PRO-TC-86"})
+	@Test (groups = {"testEntityKey:PRO-TC-86"})
+
 	public void testDivison99() {
 		try {
 			int result = calculator.divison(10, 2);
