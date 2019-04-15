@@ -27,7 +27,7 @@ public class CalculatorTest {
 	}
 	
 	
-	@Test (groups = {"testEntityKey=PRO-TC-85"})
+	@Test (groups = {"testEntityKey=PRO-TC-11"})
 	public void testSum2() {
 		int result = calculator.sum(3, 4);
 

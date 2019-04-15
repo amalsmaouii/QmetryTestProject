@@ -2,6 +2,26 @@
   "reports": [
     {
       "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_1227AM",
+      "startTime": 1555370852638
+    },
+    {
+      "name": "Command line suite",
+      "dir": "test-results/mar.16avr.19_1227AM",
+      "startTime": 1555370846907
+    },
+    {
+      "name": "Command line suite",
+      "dir": "test-results/mar.16avr.19_1223AM",
+      "startTime": 1555370624408
+    },
+    {
+      "name": "Command line suite",
+      "dir": "test-results/mar.16avr.19_1220AM",
+      "startTime": 1555370424542
+    },
+    {
+      "name": "Default suite",
       "dir": "test-results/mar.16avr.19_1207AM",
       "startTime": 1555369658391
     },

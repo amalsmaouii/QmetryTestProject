@@ -28,7 +28,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\amal.smaoui\Documents\SpringSTS\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9548729727742019968.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\amal.smaoui\Documents\SpringSTS\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1513544811536740732.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\amal.smaoui\AppData\Local\Microsoft\WindowsApps;C:\Users\amal.smaoui\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\amal.smaoui\AppData\Roaming\npm;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE;C:\DEV\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk1.8.0_201\bin;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
