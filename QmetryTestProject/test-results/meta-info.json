@@ -2,6 +2,16 @@
   "reports": [
     {
       "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_1006PM",
+      "startTime": 1555448818370
+    },
+    {
+      "name": "Command line suite",
+      "dir": "test-results/mar.16avr.19_1002PM",
+      "startTime": 1555448537318
+    },
+    {
+      "name": "Default suite",
       "dir": "test-results/mar.16avr.19_1001PM",
       "startTime": 1555448495496
     },

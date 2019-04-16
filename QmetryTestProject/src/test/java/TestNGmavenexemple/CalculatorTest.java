@@ -18,6 +18,7 @@ import org.testng.annotations.DataProvider;
 
 
 
+@Test (groups = {"testEntityKey:PRO-TC-19"}, description = "desc TC") 
 public class CalculatorTest {
 	private static ICalculator calculator;
 	 private static WebDriver driver;
@@ -37,17 +38,16 @@ public class CalculatorTest {
 		System.out.println("This is exceuted after each Test");
 	}
 	
-	
-	@Test (groups = {"testEntityKey:PRO-TC-19"}) 
+	@Test(description="desc tstep1")
 	public void testSum() {
 		int result = calculator.sum(3, 4);
-		testDivison3();
-		//assertEquals(7, result);
+
+		assertEquals(7, result);
 	}
 
 
 	    
-	@QAFTestStep(stepName="etape1", description="meaning full step descriptor")
+	@Test(description="desc tstep2")
 	public void testDivison3() {
 		try {
 			int result = calculator.divison(10, 2);
