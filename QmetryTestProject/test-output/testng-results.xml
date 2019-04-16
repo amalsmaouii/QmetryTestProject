@@ -17,29 +17,29 @@
       <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="169" started-at="2019-04-16T21:00:49Z" finished-at="2019-04-16T21:00:49Z">
+  <suite name="Default suite" duration-ms="91" started-at="2019-04-16T21:01:35Z" finished-at="2019-04-16T21:01:35Z">
     <groups>
       <group name="testEntityKey:PRO-TC-19">
-        <method signature="CalculatorTest.testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@27808f31]" name="testSum" class="TestNGmavenexemple.CalculatorTest"/>
+        <method signature="CalculatorTest.testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@9a7504c]" name="testSum" class="TestNGmavenexemple.CalculatorTest"/>
       </group> <!-- testEntityKey:PRO-TC-19 -->
     </groups>
-    <test name="Default test" duration-ms="169" started-at="2019-04-16T21:00:49Z" finished-at="2019-04-16T21:00:49Z">
+    <test name="Default test" duration-ms="91" started-at="2019-04-16T21:01:35Z" finished-at="2019-04-16T21:01:35Z">
       <class name="TestNGmavenexemple.CalculatorTest">
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@27808f31]" name="beforeEachTest" is-config="true" duration-ms="11" started-at="2019-04-16T22:00:49Z" finished-at="2019-04-16T22:00:49Z">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@9a7504c]" name="beforeEachTest" is-config="true" duration-ms="12" started-at="2019-04-16T22:01:35Z" finished-at="2019-04-16T22:01:35Z">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="initCalculator()[pri:0, instance:TestNGmavenexemple.CalculatorTest@27808f31]" name="initCalculator" is-config="true" duration-ms="1" started-at="2019-04-16T22:00:49Z" finished-at="2019-04-16T22:00:49Z">
+        <test-method status="PASS" signature="initCalculator()[pri:0, instance:TestNGmavenexemple.CalculatorTest@9a7504c]" name="initCalculator" is-config="true" duration-ms="1" started-at="2019-04-16T22:01:35Z" finished-at="2019-04-16T22:01:35Z">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- initCalculator -->
-        <test-method status="PASS" signature="testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@27808f31]" name="testSum" duration-ms="6" started-at="2019-04-16T22:00:49Z" finished-at="2019-04-16T22:00:49Z">
+        <test-method status="PASS" signature="testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@9a7504c]" name="testSum" duration-ms="4" started-at="2019-04-16T22:01:35Z" finished-at="2019-04-16T22:01:35Z">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
@@ -49,7 +49,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testSum -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@27808f31]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-04-16T22:00:49Z" finished-at="2019-04-16T22:00:49Z">
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@9a7504c]" name="afterEachTest" is-config="true" duration-ms="1" started-at="2019-04-16T22:01:35Z" finished-at="2019-04-16T22:01:35Z">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
