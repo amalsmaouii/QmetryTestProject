@@ -41,11 +41,12 @@ public class CalculatorTest {
 	@Test 
 	public void testSum() {
 		int result = calculator.sum(3, 4);
-
-		assertEquals(7, result);
+		testDivison2();
+		//assertEquals(7, result);
 	}
 
-	@Test 
+
+	    
 	@QAFTestStep(stepName="etape1", description="meaning full step descriptor")
 	public void testDivison2() {
 		try {
