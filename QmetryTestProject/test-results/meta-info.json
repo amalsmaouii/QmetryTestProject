@@ -2,6 +2,31 @@
   "reports": [
     {
       "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_0348AM",
+      "startTime": 1555382898513
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_0343AM",
+      "startTime": 1555382616931
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_0330AM",
+      "startTime": 1555381818024
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_0326AM",
+      "startTime": 1555381616003
+    },
+    {
+      "name": "Command line suite",
+      "dir": "test-results/mar.16avr.19_0307AM",
+      "startTime": 1555380455736
+    },
+    {
+      "name": "Default suite",
       "dir": "test-results/mar.16avr.19_0306AM",
       "startTime": 1555380397707
     },

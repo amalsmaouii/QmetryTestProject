@@ -1,12 +1,14 @@
 package TestNGmavenexemple;
 
-import static org.junit.Assert.assertEquals;
-
+import static org.testng.AssertJUnit.assertEquals;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-@Test (groups = {"testEntityKey:PRO-TC-17"})
+@Test (groups = {"testEntityKey:PRO-TC-18"})
 
 public class CalculatorTest {
 	private static ICalculator calculator;
@@ -27,16 +29,16 @@ public class CalculatorTest {
 	}
 	
 	
-	@Test 
-	public void testSum99() {
+	@Test (priority = 1)
+	public void testSum() {
 		int result = calculator.sum(3, 4);
 
 		assertEquals(7, result);
 	}
 
-	@Test 
+	@Test  (priority = 2)
 
-	public void testDivison99() {
+	public void testDivison() {
 		try {
 			int result = calculator.divison(10, 2);
 
