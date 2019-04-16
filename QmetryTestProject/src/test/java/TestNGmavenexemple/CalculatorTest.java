@@ -19,7 +19,7 @@ import org.testng.annotations.DataProvider;
 
 
 
-@Test (groups = {"testEntityKey:PRO-TC-19"}, description = "desc TC") 
+
 public class CalculatorTest {
 	private static ICalculator calculator;
 	 private static WebDriver driver;
@@ -38,8 +38,8 @@ public class CalculatorTest {
 	public void afterEachTest() {
 		System.out.println("This is exceuted after each Test");
 	}
-	
-	@Test(description="desc tstep1")
+	@Test (groups = {"testEntityKey:PRO-TC-19"}, description = "desc TC") 
+	//@Test(description="desc tstep1")
 	public void testSum() {
 		int result = calculator.sum(3, 4);
 		 Reporter.log ( "M3 A ÉTÉ APPELÉ" ) ;
@@ -49,7 +49,7 @@ public class CalculatorTest {
 
 
 	    
-	@Test(description="desc tstep2")
+	@Test (groups = {"testEntityKey:PRO-TC-20"}, description = "desc TC") 
 	public void testDivison3() {
 		try {
 			int result = calculator.divison(10, 2);
