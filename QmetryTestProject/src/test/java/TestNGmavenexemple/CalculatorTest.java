@@ -6,7 +6,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-
+@Test (groups = {"testEntityKey:PRO-TC-16"})
 
 public class CalculatorTest {
 	private static ICalculator calculator;
@@ -27,14 +27,14 @@ public class CalculatorTest {
 	}
 	
 	
-	@Test (groups = {"testEntityKey:PRO-TC-11"})
+	@Test 
 	public void testSum99() {
 		int result = calculator.sum(3, 4);
 
 		assertEquals(7, result);
 	}
 
-	@Test (groups = {"testEntityKey:PRO-TC-15"})
+	@Test 
 
 	public void testDivison99() {
 		try {
