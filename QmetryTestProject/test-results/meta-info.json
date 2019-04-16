@@ -2,6 +2,56 @@
   "reports": [
     {
       "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_0931PM",
+      "startTime": 1555446694056
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_0911PM",
+      "startTime": 1555445517890
+    },
+    {
+      "name": "Command line suite",
+      "dir": "test-results/mar.16avr.19_0911PM",
+      "startTime": 1555445511356
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_0409AM",
+      "startTime": 1555384197609
+    },
+    {
+      "name": "Command line suite",
+      "dir": "test-results/mar.16avr.19_0409AM",
+      "startTime": 1555384192358
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_0409AM",
+      "startTime": 1555384170815
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_0404AM",
+      "startTime": 1555383868076
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_0403AM",
+      "startTime": 1555383810937
+    },
+    {
+      "name": "Command line suite",
+      "dir": "test-results/mar.16avr.19_0403AM",
+      "startTime": 1555383808074
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/mar.16avr.19_0401AM",
+      "startTime": 1555383712570
+    },
+    {
+      "name": "Default suite",
       "dir": "test-results/mar.16avr.19_0348AM",
       "startTime": 1555382898513
     },

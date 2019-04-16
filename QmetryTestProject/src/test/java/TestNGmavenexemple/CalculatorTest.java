@@ -1,17 +1,22 @@
 package TestNGmavenexemple;
 
 import static org.testng.AssertJUnit.assertEquals;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.DataProvider;
 
-@Test (groups = {"testEntityKey:PRO-TC-18"})
 
+@Test (groups = {"testEntityKey:PRO-TC-19"})
 public class CalculatorTest {
 	private static ICalculator calculator;
+	 private static WebDriver driver;
 	
 	@BeforeClass
 	public static void initCalculator() {
@@ -29,14 +34,14 @@ public class CalculatorTest {
 	}
 	
 	
-	@Test (priority = 1)
+	@Test 
 	public void testSum() {
 		int result = calculator.sum(3, 4);
 
 		assertEquals(7, result);
 	}
 
-	@Test  (priority = 2)
+	@Test  
 
 	public void testDivison() {
 		try {
@@ -47,4 +52,6 @@ public class CalculatorTest {
 			e.printStackTrace(System.err);
 		}
 	}
+	 
+	
 }
