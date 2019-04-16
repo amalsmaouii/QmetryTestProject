@@ -1,0 +1,92 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BeforeEachTest",
+        "name": "beforeEachTest",
+        "groups": [
+          "testEntityKey:PRO-TC-16"
+        ],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555380182744,
+      "duration": 16,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "InitCalculator",
+        "name": "initCalculator",
+        "groups": [
+          "testEntityKey:PRO-TC-16"
+        ],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555380182779,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestDivison99",
+        "name": "testDivison99",
+        "groups": [
+          "testEntityKey:PRO-TC-16"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1555380182795,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestSum99",
+        "name": "testSum99",
+        "groups": [
+          "testEntityKey:PRO-TC-16"
+        ]
+      },
+      "dependsOn": [],
+      "startTime": 1555380182808,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "AfterEachTest",
+        "name": "afterEachTest",
+        "groups": [
+          "testEntityKey:PRO-TC-16"
+        ],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555380182819,
+      "duration": 1,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

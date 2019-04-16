@@ -6,7 +6,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-@Test (groups = {"testEntityKey:PRO-TC-16"})
+@Test (groups = {"testEntityKey:PRO-TC-17"})
 
 public class CalculatorTest {
 	private static ICalculator calculator;
