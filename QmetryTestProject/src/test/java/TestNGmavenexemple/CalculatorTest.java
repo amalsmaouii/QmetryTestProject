@@ -47,7 +47,7 @@ public class CalculatorTest {
 
 	@Test 
 	@QAFTestStep(stepName="etape1", description="meaning full step descriptor")
-	public void testDivison() {
+	public void testDivison2() {
 		try {
 			int result = calculator.divison(10, 2);
 
