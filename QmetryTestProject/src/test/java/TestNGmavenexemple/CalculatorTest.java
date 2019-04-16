@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
@@ -41,8 +42,9 @@ public class CalculatorTest {
 	@Test(description="desc tstep1")
 	public void testSum() {
 		int result = calculator.sum(3, 4);
-
+		 Reporter.log ( "M3 A ÉTÉ APPELÉ" ) ;
 		assertEquals(7, result);
+		 Reporter.log ( "4 A ÉTÉ APPELÉ" ) ;
 	}
 
 
@@ -51,8 +53,9 @@ public class CalculatorTest {
 	public void testDivison3() {
 		try {
 			int result = calculator.divison(10, 2);
-
+			System.out.println("testing");
 			assertEquals(5, result);
+			System.out.println("testing");
 		
 		} catch (Exception e) {
 			e.printStackTrace(System.err);
