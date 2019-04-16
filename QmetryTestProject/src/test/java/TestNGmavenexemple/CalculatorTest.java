@@ -9,6 +9,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
+
+import com.google.common.base.Verify;
+import com.qmetry.qaf.automation.step.QAFTestStep;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 
@@ -41,13 +45,14 @@ public class CalculatorTest {
 		assertEquals(7, result);
 	}
 
-	@Test  
 
+	@QAFTestStep(stepName="etape1", description="meaning full step descriptor")
 	public void testDivison() {
 		try {
 			int result = calculator.divison(10, 2);
 
 			assertEquals(5, result);
+		
 		} catch (Exception e) {
 			e.printStackTrace(System.err);
 		}
