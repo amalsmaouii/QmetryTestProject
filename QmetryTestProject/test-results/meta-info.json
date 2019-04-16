@@ -1,6 +1,11 @@
 {
   "reports": [
     {
+      "name": "Command line suite",
+      "dir": "test-results/mar.16avr.19_0950PM",
+      "startTime": 1555447833149
+    },
+    {
       "name": "Default suite",
       "dir": "test-results/mar.16avr.19_0950PM",
       "startTime": 1555447806006

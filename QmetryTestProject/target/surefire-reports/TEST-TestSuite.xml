@@ -12,7 +12,7 @@
     <property name="POM_ARTIFACTID" value="QmetryTestProject"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="user.country.format" value="TN"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
@@ -29,8 +29,8 @@
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="fr"/>
     <property name="JOB_BASE_NAME" value="testng"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/testng/34/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#34"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/testng/35/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#35"/>
     <property name="OneDrive" value="C:\Users\amal.smaoui\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Users\amal.smaoui\AppData\Local"/>
@@ -41,7 +41,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="34"/>
+    <property name="BUILD_ID" value="35"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -57,7 +57,7 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/testng/34/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/testng/35/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Users\AMAL~1.SMA\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
@@ -80,7 +80,7 @@
     <property name="POM_GROUPID" value="Phoenix-its"/>
     <property name="user.home" value="C:\Users\amal.smaoui"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-testng-34"/>
+    <property name="BUILD_TAG" value="jenkins-testng-35"/>
     <property name="JENKINS_SERVER_COOKIE" value="49c988b91327d210"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -94,7 +94,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Users\amal.smaoui\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven"/>
     <property name="java.class.path" value="C:\Users\amal.smaoui\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Users\amal.smaoui\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven\boot\plexus-classworlds-2.5.2.jar;C:\Users\amal.smaoui\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\amal.smaoui\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven C:\Users\amal.smaoui\.jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Users\amal.smaoui\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\amal.smaoui\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 50750"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\amal.smaoui\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven C:\Users\amal.smaoui\.jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Users\amal.smaoui\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\amal.smaoui\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 51019"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\amal.smaoui\AppData\Local\Microsoft\WindowsApps;C:\Users\amal.smaoui\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\amal.smaoui\AppData\Roaming\npm;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE;C:\DEV\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk1.8.0_201\bin;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -110,7 +110,7 @@
     <property name="HUDSON_HOME" value="C:\Users\amal.smaoui\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\Users\amal.smaoui\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/testng/34/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/testng/35/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -124,7 +124,7 @@
 "/>
     <property name="MAVEN_HOME" value="C:\Users\amal.smaoui\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="34"/>
+    <property name="BUILD_NUMBER" value="35"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="9e0a"/>
     <property name="ProgramW6432" value="C:\Program Files"/>

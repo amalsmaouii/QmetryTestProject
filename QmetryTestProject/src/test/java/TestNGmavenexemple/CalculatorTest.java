@@ -45,7 +45,7 @@ public class CalculatorTest {
 		assertEquals(7, result);
 	}
 
-
+	@Test 
 	@QAFTestStep(stepName="etape1", description="meaning full step descriptor")
 	public void testDivison() {
 		try {
