@@ -1,0 +1,94 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BeforeEachTest",
+        "name": "beforeEachTest",
+        "groups": [
+          "testEntityKey:PRO-TC-19"
+        ],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555449279295,
+      "duration": 16,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "InitCalculator",
+        "name": "initCalculator",
+        "groups": [
+          "testEntityKey:PRO-TC-19"
+        ],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555449279327,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestDivison3",
+        "name": "testDivison3",
+        "groups": [
+          "testEntityKey:PRO-TC-19"
+        ],
+        "description": "desc tstep2"
+      },
+      "dependsOn": [],
+      "startTime": 1555449279327,
+      "duration": 15,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestSum",
+        "name": "testSum",
+        "groups": [
+          "testEntityKey:PRO-TC-19"
+        ],
+        "description": "desc tstep1"
+      },
+      "dependsOn": [],
+      "startTime": 1555449279358,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "AfterEachTest",
+        "name": "afterEachTest",
+        "groups": [
+          "testEntityKey:PRO-TC-19"
+        ],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1555449279380,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

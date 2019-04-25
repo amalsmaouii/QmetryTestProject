@@ -20,11 +20,7 @@
      <scope>Tests</scope>
   </dependency>
  
-<dependency>
-    <groupId>com.qmetry</groupId>
-    <artifactId>qaf</artifactId>
-    <version>2.1.14</version>
-</dependency>
+
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>

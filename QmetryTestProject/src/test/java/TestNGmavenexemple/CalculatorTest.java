@@ -2,28 +2,21 @@ package TestNGmavenexemple;
 
 import static org.testng.AssertJUnit.assertEquals;
 
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
-import com.google.common.base.Verify;
-import com.qmetry.qaf.automation.step.QAFTestStep;
+import SmokeTest.Calculator;
+import SmokeTest.ICalculator;
 
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
 
 
 
+@Test (groups = { "SmokeTest", "requireEntityKey:TES-RQ-1", "testEntityKey:TES-TC-1" })
 
 public class CalculatorTest {
 	private static ICalculator calculator;
-	 private static WebDriver driver;
-	
+
 	@BeforeClass
 	public static void initCalculator() {
 		calculator = new Calculator();
@@ -38,29 +31,25 @@ public class CalculatorTest {
 	public void afterEachTest() {
 		System.out.println("This is exceuted after each Test");
 	}
-	@Test (groups = {"testEntityKey:PRO-TC-19"}, description = "desc TC") 
-	//@Test(description="desc tstep1")
+
+	@Test
 	public void testSum() {
 		int result = calculator.sum(3, 4);
-		 Reporter.log ( "M3 A ÉTÉ APPELÉ" ) ;
 		assertEquals(7, result);
-		 Reporter.log ( "4 A ÉTÉ APPELÉ" ) ;
+
 	}
 
-
-	    
-	@Test (groups = {"testEntityKey:PRO-TC-20"}, description = "desc TC") 
-	public void testDivison3() {
+	@Test
+	public void testDivison() {
 		try {
 			int result = calculator.divison(10, 2);
 			System.out.println("testing");
 			assertEquals(5, result);
 			System.out.println("testing");
-		
+
 		} catch (Exception e) {
 			e.printStackTrace(System.err);
 		}
 	}
-	 
-	
+
 }
