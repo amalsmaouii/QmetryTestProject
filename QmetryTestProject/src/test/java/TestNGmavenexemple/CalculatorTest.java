@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeClass;
 
 
 
-@Test (groups = { "SmokeTest", "requireEntityKey:TES-RQ-1", "testEntityKey:TES-TC-1" })
+@Test (groups = { "SmokeTest", "requirementEntityKey:PRO-RQ-1", "testEntityKey:PRO-TC-1" })
 
 public class CalculatorTest {
 	private static ICalculator calculator;

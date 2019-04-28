@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import SmokeTest.Program;
 
+@Test (groups = { "SmokeTest", "requirementEntityKey:PRO-RQ-1", "testEntityKey:PRO-TC-2" })
 public class ProgramTest {
 
 	@Test

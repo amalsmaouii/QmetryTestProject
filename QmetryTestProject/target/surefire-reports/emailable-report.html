@@ -36,25 +36,13 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Command line test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="2">TestNGmavenexemple.ProgramTest</td><td><a href="#m1"><b>createMessageTest</b>  </a></td><td class="numi">1</td><td>1556223760023</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m2"><b>testConcat</b>  </a></td><td class="numi">1</td><td>1556223760024</td><td class="numi">1</td></tr>
+<tr class="failedodd"><td rowspan="2">TestNGmavenexemple.ProgramTest</td><td><a href="#m1"><b>createMessageTest</b>  </a></td><td class="numi">1</td><td>1556231685462</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m2"><b>testConcat</b>  </a></td><td class="numi">1</td><td>1556231685464</td><td class="numi">0</td></tr>
 <tr><th colspan="4">Command line test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">TestNGmavenexemple.ProgramTest</td><td><a href="#m3"><b>IsOver16</b>  </a></td><td class="numi">1</td><td>1556223760021</td><td class="numi">1</td></tr>
-<tr class="passedeven"><td rowspan="2">TestNGmavenexemple.CalculatorTest</td><td><a href="#m4"><b>testDivison3</b> (testEntityKey:PRO-TC-20) </a></td><td class="numi">1</td><td>1556223760019</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m5"><b>testSum</b> (testEntityKey:PRO-TC-19, smokeTest) </a></td><td class="numi">1</td><td>1556223760021</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">TestNGmavenexemple.ProgramTest</td><td><a href="#m3"><b>IsOver16</b>  </a></td><td class="numi">1</td><td>1556231685461</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="2">TestNGmavenexemple.CalculatorTest</td><td><a href="#m4"><b>testDivison</b> (SmokeTest, testEntityKey:TES-TC-1, requireEntityKey:TES-RQ-1) </a></td><td class="numi">1</td><td>1556231685459</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m5"><b>testSum</b> (SmokeTest, testEntityKey:TES-TC-1, requireEntityKey:TES-RQ-1) </a></td><td class="numi">1</td><td>1556231685460</td><td class="numi">0</td></tr>
 </table>
 <h1>Command line test</h1>
-<h2 id="m1">TestNGmavenexemple.ProgramTest:testConcat</h2>
-<div style="padding-left:3em">
-<p>expected [Hello World] but found [HelloWorld]</p>
-org.testng.Assert.fail(Assert.java:94)
-<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
-<br/>at org.testng.Assert.assertEquals(Assert.java:123)
-<br/>at org.testng.Assert.assertEquals(Assert.java:176)
-<br/>at org.testng.Assert.assertEquals(Assert.java:186)
-<br/>at TestNGmavenexemple.ProgramTest.testConcat(ProgramTest.java:25)
-<br/>35 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">TestNGmavenexemple.ProgramTest:createMessageTest</h2>
+<h2 id="m1">TestNGmavenexemple.ProgramTest:createMessageTest</h2>
 <div style="padding-left:3em">
 <p>expected [Hello World] but found [Hello World ]</p>
 org.testng.Assert.fail(Assert.java:94)
@@ -62,14 +50,26 @@ org.testng.Assert.fail(Assert.java:94)
 <br/>at org.testng.Assert.assertEquals(Assert.java:123)
 <br/>at org.testng.Assert.assertEquals(Assert.java:176)
 <br/>at org.testng.Assert.assertEquals(Assert.java:186)
-<br/>at TestNGmavenexemple.ProgramTest.createMessageTest(ProgramTest.java:12)
+<br/>at TestNGmavenexemple.ProgramTest.createMessageTest(ProgramTest.java:14)
 <br/>35 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">TestNGmavenexemple.ProgramTest:IsOver16</h2>
+<h2 id="m2">TestNGmavenexemple.ProgramTest:testConcat</h2>
+<div style="padding-left:3em">
+<p>expected [Hello World] but found [HelloWorld]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at TestNGmavenexemple.ProgramTest.testConcat(ProgramTest.java:27)
+<br/>35 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">TestNGmavenexemple.CalculatorTest:testSum</h2>
+<h2 id="m3">TestNGmavenexemple.CalculatorTest:testSum</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">TestNGmavenexemple.CalculatorTest:testDivison3</h2>
+<h2 id="m4">TestNGmavenexemple.ProgramTest:IsOver16</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">TestNGmavenexemple.CalculatorTest:testDivison</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
