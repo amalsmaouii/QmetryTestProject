@@ -6,11 +6,16 @@
       <class name="TestNGmavenexemple.CalculatorTest">
         <methods>
           <include name="initCalculator"/>
-          <include name="test"/>
           <include name="beforeEachTest"/>
           <include name="afterEachTest"/>
         </methods>
       </class> <!-- TestNGmavenexemple.CalculatorTest -->
+      <class name="TestNGmavenexemple.ProgramTest">
+        <methods>
+          <include name="testConcat"/>
+          <include name="createMessageTest"/>
+        </methods>
+      </class> <!-- TestNGmavenexemple.ProgramTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
