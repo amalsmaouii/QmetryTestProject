@@ -1,4 +1,4 @@
-package com.smoke;
+package TestNGmavenexemple;
 
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -6,14 +6,14 @@ import static org.testng.AssertJUnit.assertEquals;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
-import com.smoke.Calculator;
-import com.smoke.ICalculator;
+import SmokeTest.Calculator;
+import SmokeTest.ICalculator;
 
 import org.testng.annotations.BeforeClass;
 
 
 
-@Test (groups = {"requirementEntityKey:PRO-RQ-1", "testEntityKey:PRO-TC-1" }, suiteName  =  " SmokeTest ")
+@Test (groups = {"requirementEntityKey:PRO-RQ-1", "testEntityKey:PRO-TC-1" }, suiteName  =  " Regression ")
 public class CalculatorTest {
 	private static ICalculator calculator;
 

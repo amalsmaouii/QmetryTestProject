@@ -1,4 +1,4 @@
-package com.smoke;
+package SmokeTest;
 
 public class Program {
 
