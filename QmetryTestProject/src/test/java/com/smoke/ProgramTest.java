@@ -1,13 +1,13 @@
-package TestNGmavenexemple;
+package com.smoke;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import org.testng.annotations.Test;
 
-import SmokeTest.Program;
+import com.smoke.Program;
 
-@Test (groups = { "SmokeTest", "requirementEntityKey:PRO-RQ-1", "testEntityKey:PRO-TC-2" })
+@Test (groups = {"requirementEntityKey:PRO-RQ-1", "testEntityKey:PRO-TC-2" }, suiteName  =  " SmokeTest ")
 public class ProgramTest {
 
 	@Test

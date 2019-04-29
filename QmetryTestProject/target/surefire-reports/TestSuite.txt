@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.412 sec <<< FAILURE!
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.462 sec <<< FAILURE!
 createMessageTest(TestNGmavenexemple.ProgramTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 java.lang.AssertionError: expected [Hello World] but found [Hello World ]
 	at org.testng.Assert.fail(Assert.java:94)
@@ -9,14 +9,14 @@ java.lang.AssertionError: expected [Hello World] but found [Hello World ]
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at TestNGmavenexemple.ProgramTest.createMessageTest(ProgramTest.java:14)
+	at TestNGmavenexemple.ProgramTest.createMessageTest(ProgramTest.java:15)
 
-testConcat(TestNGmavenexemple.ProgramTest)  Time elapsed: 0 sec  <<< FAILURE!
+testConcat(TestNGmavenexemple.ProgramTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected [Hello World] but found [HelloWorld]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at TestNGmavenexemple.ProgramTest.testConcat(ProgramTest.java:27)
+	at TestNGmavenexemple.ProgramTest.testConcat(ProgramTest.java:28)
 

@@ -1,4 +1,4 @@
-package SmokeTest;
+package com.smoke;
 
 public class Calculator implements ICalculator{
 	public int sum(int a, int b) {

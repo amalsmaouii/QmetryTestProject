@@ -2,28 +2,39 @@
 <testng-results skipped="0" failed="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="17" started-at="2019-04-25T22:34:45Z" finished-at="2019-04-25T22:34:45Z">
+  <suite name="Command line suite" duration-ms="18" started-at="2019-04-28T20:57:12Z" finished-at="2019-04-28T20:57:12Z">
     <groups>
       <group name="SmokeTest">
         <method signature="CalculatorTest.testDivison()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="testDivison" class="TestNGmavenexemple.CalculatorTest"/>
         <method signature="CalculatorTest.testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="testSum" class="TestNGmavenexemple.CalculatorTest"/>
+        <method signature="ProgramTest.IsOver16()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="IsOver16" class="TestNGmavenexemple.ProgramTest"/>
+        <method signature="ProgramTest.createMessageTest()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="createMessageTest" class="TestNGmavenexemple.ProgramTest"/>
+        <method signature="ProgramTest.testConcat()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="testConcat" class="TestNGmavenexemple.ProgramTest"/>
       </group> <!-- SmokeTest -->
-      <group name="testEntityKey:TES-TC-1">
+      <group name="testEntityKey:PRO-TC-2">
+        <method signature="ProgramTest.IsOver16()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="IsOver16" class="TestNGmavenexemple.ProgramTest"/>
+        <method signature="ProgramTest.createMessageTest()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="createMessageTest" class="TestNGmavenexemple.ProgramTest"/>
+        <method signature="ProgramTest.testConcat()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="testConcat" class="TestNGmavenexemple.ProgramTest"/>
+      </group> <!-- testEntityKey:PRO-TC-2 -->
+      <group name="testEntityKey:PRO-TC-1">
         <method signature="CalculatorTest.testDivison()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="testDivison" class="TestNGmavenexemple.CalculatorTest"/>
         <method signature="CalculatorTest.testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="testSum" class="TestNGmavenexemple.CalculatorTest"/>
-      </group> <!-- testEntityKey:TES-TC-1 -->
-      <group name="requireEntityKey:TES-RQ-1">
+      </group> <!-- testEntityKey:PRO-TC-1 -->
+      <group name="requirementEntityKey:PRO-RQ-1">
         <method signature="CalculatorTest.testDivison()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="testDivison" class="TestNGmavenexemple.CalculatorTest"/>
         <method signature="CalculatorTest.testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="testSum" class="TestNGmavenexemple.CalculatorTest"/>
-      </group> <!-- requireEntityKey:TES-RQ-1 -->
+        <method signature="ProgramTest.IsOver16()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="IsOver16" class="TestNGmavenexemple.ProgramTest"/>
+        <method signature="ProgramTest.createMessageTest()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="createMessageTest" class="TestNGmavenexemple.ProgramTest"/>
+        <method signature="ProgramTest.testConcat()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="testConcat" class="TestNGmavenexemple.ProgramTest"/>
+      </group> <!-- requirementEntityKey:PRO-RQ-1 -->
     </groups>
-    <test name="Command line test" duration-ms="17" started-at="2019-04-25T22:34:45Z" finished-at="2019-04-25T22:34:45Z">
+    <test name="Command line test" duration-ms="18" started-at="2019-04-28T20:57:12Z" finished-at="2019-04-28T20:57:12Z">
       <class name="TestNGmavenexemple.ProgramTest">
-        <test-method status="PASS" signature="IsOver16()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="IsOver16" duration-ms="1" started-at="2019-04-25T23:34:45Z" finished-at="2019-04-25T23:34:45Z">
+        <test-method status="PASS" signature="IsOver16()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="IsOver16" duration-ms="1" started-at="2019-04-28T21:57:12Z" finished-at="2019-04-28T21:57:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IsOver16 -->
-        <test-method status="FAIL" signature="createMessageTest()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="createMessageTest" duration-ms="0" started-at="2019-04-25T23:34:45Z" finished-at="2019-04-25T23:34:45Z">
+        <test-method status="FAIL" signature="createMessageTest()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="createMessageTest" duration-ms="1" started-at="2019-04-28T21:57:12Z" finished-at="2019-04-28T21:57:12Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Hello World] but found [Hello World ]]]>
@@ -35,7 +46,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at TestNGmavenexemple.ProgramTest.createMessageTest(ProgramTest.java:14)
+	at TestNGmavenexemple.ProgramTest.createMessageTest(ProgramTest.java:15)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -76,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createMessageTest -->
-        <test-method status="FAIL" signature="testConcat()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="testConcat" duration-ms="0" started-at="2019-04-25T23:34:45Z" finished-at="2019-04-25T23:34:45Z">
+        <test-method status="FAIL" signature="testConcat()[pri:0, instance:TestNGmavenexemple.ProgramTest@3796751b]" name="testConcat" duration-ms="0" started-at="2019-04-28T21:57:12Z" finished-at="2019-04-28T21:57:12Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Hello World] but found [HelloWorld]]]>
@@ -88,7 +99,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at TestNGmavenexemple.ProgramTest.testConcat(ProgramTest.java:27)
+	at TestNGmavenexemple.ProgramTest.testConcat(ProgramTest.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -131,23 +142,23 @@
         </test-method> <!-- testConcat -->
       </class> <!-- TestNGmavenexemple.ProgramTest -->
       <class name="TestNGmavenexemple.CalculatorTest">
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="beforeEachTest" is-config="true" duration-ms="6" started-at="2019-04-25T23:34:45Z" finished-at="2019-04-25T23:34:45Z">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="beforeEachTest" is-config="true" duration-ms="6" started-at="2019-04-28T21:57:12Z" finished-at="2019-04-28T21:57:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="initCalculator()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="initCalculator" is-config="true" duration-ms="1" started-at="2019-04-25T23:34:45Z" finished-at="2019-04-25T23:34:45Z">
+        <test-method status="PASS" signature="initCalculator()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="initCalculator" is-config="true" duration-ms="1" started-at="2019-04-28T21:57:12Z" finished-at="2019-04-28T21:57:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initCalculator -->
-        <test-method status="PASS" signature="testDivison()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="testDivison" duration-ms="1" started-at="2019-04-25T23:34:45Z" finished-at="2019-04-25T23:34:45Z">
+        <test-method status="PASS" signature="testDivison()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="testDivison" duration-ms="1" started-at="2019-04-28T21:57:12Z" finished-at="2019-04-28T21:57:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivison -->
-        <test-method status="PASS" signature="testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="testSum" duration-ms="0" started-at="2019-04-25T23:34:45Z" finished-at="2019-04-25T23:34:45Z">
+        <test-method status="PASS" signature="testSum()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="testSum" duration-ms="0" started-at="2019-04-28T21:57:12Z" finished-at="2019-04-28T21:57:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSum -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="afterEachTest" is-config="true" duration-ms="1" started-at="2019-04-25T23:34:45Z" finished-at="2019-04-25T23:34:45Z">
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:TestNGmavenexemple.CalculatorTest@30c7da1e]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-04-28T21:57:12Z" finished-at="2019-04-28T21:57:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
